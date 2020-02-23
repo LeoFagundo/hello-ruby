@@ -15,3 +15,13 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+shop_me = ["milk", "eggs", "bacon", "apples"]
+# puts shop_me
+
+shop_friend = ["beer", "cookies", "apples"]
+# puts shop_friend
+
+shop_shared = shop_me + shop_friend
+shop_shared_sort_uniq = shop_shared.sort.uniq
+
+puts shop_shared_sort_uniq
